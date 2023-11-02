@@ -6,6 +6,7 @@ extension Env: Migrator {
     static var table: Tablex { Tablex("homes") }
     
     static var id = Expression<Int64>("id")
+    static var name = Expression<String>("name")
     
     static func migrate(_ conn: Connection) throws {
         try conn.run(table.create(ifNotExists: true) { t in
@@ -17,6 +18,7 @@ extension Env: Migrator {
     static func parse(_ row: Row) throws -> Env {
         return Env(
             id: try row.get(id),
+            name: try row.get(name),
             pages: [])
     }
     

@@ -16,4 +16,8 @@ extension Util {
         pasteboard.clearContents()
         pasteboard.setString(stringToCopy, forType: .string)
     }
+    
+    static func jsonStringify(data: Data, prettyPrinted: Bool = true) -> String? {
+        return String(data: data, encoding: String.Encoding.utf8)
+    }
 }
