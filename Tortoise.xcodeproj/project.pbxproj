@@ -10,6 +10,7 @@
 		A81F2D382AF3A9EC0016AC76 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = A81F2D372AF3A9EC0016AC76 /* Sparkle */; };
 		A81F2D3A2AF3C8B70016AC76 /* UpdaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F2D392AF3C8B70016AC76 /* UpdaterView.swift */; };
 		A827AA982A5BEB2600E29356 /* PreferenceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A827AA972A5BEB2600E29356 /* PreferenceInteractor.swift */; };
+		A82816B62AFB210A0054EF20 /* WebInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82816B52AFB210A0054EF20 /* WebInteractor.swift */; };
 		A836DECE2A2F0371002DF658 /* TortoiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A836DECD2A2F0371002DF658 /* TortoiseApp.swift */; };
 		A836DED02A2F0371002DF658 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A836DECF2A2F0371002DF658 /* EditorView.swift */; };
 		A836DED22A2F0373002DF658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A836DED12A2F0373002DF658 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		A81F2D392AF3C8B70016AC76 /* UpdaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdaterView.swift; sourceTree = "<group>"; };
 		A81F2D3B2AF3DFA80016AC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A827AA972A5BEB2600E29356 /* PreferenceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceInteractor.swift; sourceTree = "<group>"; };
+		A82816B52AFB210A0054EF20 /* WebInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebInteractor.swift; sourceTree = "<group>"; };
 		A836DECA2A2F0371002DF658 /* Tortoise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tortoise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A836DECD2A2F0371002DF658 /* TortoiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TortoiseApp.swift; sourceTree = "<group>"; };
 		A836DECF2A2F0371002DF658 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				A836DEF12A2F06CB002DF658 /* SystemInteractor.swift */,
+				A82816B52AFB210A0054EF20 /* WebInteractor.swift */,
 				A827AA972A5BEB2600E29356 /* PreferenceInteractor.swift */,
 			);
 			path = Interactor;
@@ -353,6 +356,7 @@
 				A86F24AE2A30AF6600EEFA1E /* Editor.swift in Sources */,
 				A86F24B22A316EF100EEFA1E /* Helper.swift in Sources */,
 				A836DEFE2A2F3524002DF658 /* Page.swift in Sources */,
+				A82816B62AFB210A0054EF20 /* WebInteractor.swift in Sources */,
 				A836DF132A2F6F05002DF658 /* Config.swift in Sources */,
 				A836DF1E2A304C71002DF658 /* Table.swift in Sources */,
 				A836DF152A2F74E8002DF658 /* PageView.swift in Sources */,

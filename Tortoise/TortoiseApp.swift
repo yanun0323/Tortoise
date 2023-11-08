@@ -18,7 +18,7 @@ struct TortoiseApp: App {
         .menuBarExtraAccess(isPresented: $menubarState)
         
         Window(Config.settingsWindowTitle, id: Config.settingsWindowID) {
-            UpdaterView()
+            SettingView()
                 .inject(container)
         }
     }
